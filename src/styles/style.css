@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500&family=DM+Sans&display=swap');
+
+:root {
+    /* Your default theme */
+    --background: white;
+    --foreground: black;
+  }
+  
+  [data-theme='dark'] {
+    --background: black;
+    --foreground: white;
+  }
