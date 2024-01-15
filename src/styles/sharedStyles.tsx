@@ -46,23 +46,21 @@ export const NavTitles = styled.a`
   font-family: 'DM Sans', sans-serif;
   text-decoration: none !important;
   display: block;
-  text-align: center;
   padding: 10px 24px;
 `;
 
 export const NavLinksDiv = styled.div`
   display: flex;
+  justify-content: space-between;
   font-size: 80%;
   padding: 1rem 1rem;
   flex-flow: row wrap;
-  justify-content: center;
   align-items: center;
 `;
 
 export const Title = styled.h1`
   font-size: 1.5em;
   padding: 2rem 1rem;
-  text-align: left;
   color: #BF4F74;
   font-family: 'Bricolage Grotesque', sans-serif;
   font-family: 'DM Sans', sans-serif;

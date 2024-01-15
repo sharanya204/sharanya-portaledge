@@ -18,7 +18,7 @@ const Header = () => {
         
         <NavLinksDiv>
           <Title> Sharanya's other portaledge </Title>
-          {NavLinks
+          <div>{NavLinks
           // .filter((link) => link.href !== '/')
           .map((link) => (
             <NavButton $theme='vampire'>
@@ -29,7 +29,7 @@ const Header = () => {
               <NavTitles> {link.title} </NavTitles>
             </Link>
             </NavButton>
-          ))}
+          ))}</div>
         </NavLinksDiv>
       </div>
       <ThemeSwitch />
